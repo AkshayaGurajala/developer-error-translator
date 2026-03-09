@@ -18,3 +18,4 @@ Python
 spaCy  
 scikit-learn  
 NLP preprocessing
+Ollama

@@ -1,21 +1,31 @@
-# Developer Error Message Translator
+# DevError Decoder
 
-## Project Overview
-Programming error messages are often confusing for beginners.  
-This project translates technical error messages into simple explanations and solutions.
+DevError Decoder is an AI-powered tool that translates complex programming errors into simple explanations.
 
-## Example
+It supports Python, C, and Java and provides beginner-friendly debugging suggestions using an AI model.
 
-Input:
-IndexError: list index out of range
+## Features
 
-Output:
-Meaning: You tried to access a list element that does not exist.
-Fix: Check the list length before accessing an index.
+- Multi-language error detection
+- AI-based error explanation
+- Code correction suggestions
+- Beginner-friendly debugging tool
 
 ## Technologies Used
-Python  
-spaCy  
-scikit-learn  
-NLP preprocessing
-Ollama
+
+- Python
+- Flask
+- Ollama
+- Phi-3 Model
+- GCC Compiler
+- Java JDK
+
+## Installation
+
+git clone https://github.com/AkshayaGurajala/DevError-Decoder.git
+cd DevError-Decoder
+pip install -r requirements.txt
+
+## Run the Project
+
+python src/app.py
